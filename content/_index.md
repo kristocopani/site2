@@ -42,22 +42,60 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
   - block: features
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
+        - name: Windows Server
+          description: Administration
+          icon: windows
           icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: Hyper-V
+          description: Virtualization
+          icon: windows
+          icon_pack: fab
+        - name: VMWare
+          description: Virtualization
+          icon: server
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Microsoft Azure 
+          description: Computing & Networking & Storage
+          icon: cloud
           icon_pack: fas
+        - name: Microsoft 365 
+          description: Collaboration & Security
+          icon: cloud
+          icon_pack: fas
+        - name: Microsoft Intune
+          description: Device Management
+          icon: cloud
+          icon_pack: fas
+        - name: Docker
+          description: Containerization
+          icon: docker
+          icon_pack: fab
+        - name: Linux
+          description: Debian distros
+          icon: linux
+          icon_pack: fab
+        - name: Scripting
+          description: PowerShell, Bash, Python
+          icon: code
+          icon_pack: fas
+        - name: Automation
+          description: Ansible
+          icon: gears
+          icon_pack: fas
+        - name: Networking
+          description: FortiGate
+          icon: network-wired
+          icon_pack: fas
+        - name: Backup Technologies
+          description: Azure Backup, Veeam
+          icon: hard-drive
+          icon_pack: fas        
+
   - block: experience
     content:
       title: Experience
@@ -70,12 +108,12 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Senior Cloud Transformation Engineer
+          company: Algosystems SA
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Athens
+          date_start: '2021-05-01'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -83,20 +121,52 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Systems Engineer, Cloud & Infrastructure
+          company: Bewise
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          location: Athens
+          date_start: '2019-09-01'
+          date_end: '2022-05-01'
           description: Taught electronic engineering and researched semiconductor physics.
+        
+        - title: Helpdesk
+          company: MSD Greece
+          company_url: ''
+          company_logo: org-gc
+          location: Athens
+          date_start: '2018-08-01'
+          date_end: '2019-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        
+        - title: Systems Administrator
+          company: Paspartu Translation Services
+          company_url: ''
+          company_logo: org-gc
+          location: Athens
+          date_start: '2016-03-01'
+          date_end: '2018-08-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
     design:
       columns: '2'
+
+
+
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Certifications'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -106,59 +176,88 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/KristoCopani/A2CB5EB9E4F31D2B?sharingId=44860B6EA994AAED
           date_end: ''
           date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
+          #description: ''
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/
+          title: Microsoft Azure Administrator Associate (AZ-104)
+          url: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
+
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/KristoCopani/7320B03D3892235B?sharingId=44860B6EA994AAED
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          #description: Formulated informed blockchain models, hypotheses, and use cases.
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/
+          title: Microsoft Security Administrator Associate (MS-500)
+          url: https://learn.microsoft.com/en-us/credentials/certifications/m365-security-administrator/
+
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/KristoCopani/45011750B90A9465?sharingId=44860B6EA994AAED
+          date_end: ''
+          date_start: '2021-01-01'
+          #description: Formulated informed blockchain models, hypotheses, and use cases.
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/
+          title: Microsoft Azure Security Engineer Associate (AZ-500)
+          url: https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/
+
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/KristoCopani/5DC7A85956E2C3DD?sharingId=44860B6EA994AAED
+          date_end: ''
+          date_start: '2021-01-01'
+          #description: Formulated informed blockchain models, hypotheses, and use cases.
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/
+          title: Microsoft Security Operations Analyst Associate (SC-200)
+          url: https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/
+
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/KristoCopani/4A8982EE3B88CAF4?sharingId=44860B6EA994AAED
+          date_end: ''
+          date_start: '2021-01-01'
+          #description: Formulated informed blockchain models, hypotheses, and use cases.
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/
+          title: Microsoft Windows Server Hybrid Administrator Associate (AZ-800 & AZ-801)
+          url: https://learn.microsoft.com/en-us/credentials/certifications/windows-server-hybrid-administrator/
+
+        # - certificate_url: https://www.datacamp.com
+        #   date_end: '2020-12-21'
+        #   date_start: '2020-07-01'
+        #   description: ''
+        #   organization: DataCamp
+        #   organization_url: https://www.datacamp.com
+        #   title: 'Object-Oriented Programming in R'
+        #   url: ''
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -176,109 +275,112 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Scripting
+          tag: Azure Scripts
+        - name: Homelab
+          tag: Homelab
+        - name: Intune
+          tag: Intune
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '2'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     subtitle:
+  #     text: |-
+  #       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+  #     # Contact (add or remove contact options as necessary)
+  #     email: kristocopani@gmail.com
+  #     #phone: 888 888 88 88
+  #     #appointment_url: 'https://calendly.com'
+  #     #address:
+  #       # street: 450 Serra Mall
+  #       # city: Stanford
+  #       # region: CA
+  #       # postcode: '94305'
+  #       # country: United States
+  #       # country_code: US
+  #     #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  #     # #office_hours:
+  #     #   - 'Monday 10:00 to 13:00'
+  #     #   - 'Wednesday 09:00 to 10:00'
+  #     # contact_links:
+  #       # - icon: twitter
+  #       #   icon_pack: fab
+  #       #   name: DM Me
+  #       #   link: 'https://twitter.com/Twitter'
+  #       # - icon: skype
+  #       #   icon_pack: fab
+  #       #   name: Skype Me
+  #       #   link: 'skype:echo123?call'
+  #       # - icon: video
+  #       #   icon_pack: fas
+  #       #   name: Zoom Me
+  #       #   link: 'https://zoom.com'
+  #     # Automatically link email and phone or display as text?
+  #     autolink: true
+  #     # Email form provider
+  #     form:
+  #       provider: netlify
+  #       formspree:
+  #         id:
+  #       netlify:
+  #         # Enable CAPTCHA challenge to reduce spam?
+  #         captcha: false
+  #   design:
+  #     columns: '2'
+
 ---
